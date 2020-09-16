@@ -1,0 +1,524 @@
+/* CSS Document */
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-color:whitesmoke;
+	scroll-behavior: smooth;
+}
+ul
+{
+	list-style: none;
+}
+a
+{
+	text-decoration: none;
+	color: rgba(45,45,45,1.00);
+}
+button:hover a
+{
+	color: rgba(107,23,25,1.00);
+}
+section
+{
+	width: 1920px;
+	height: 800px;
+	background-color:white;
+/*	background-image: url("../images/hm.jpg");*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.head
+{
+	width: 100%;
+	height:60px;
+/*	background-color: aquamarine;*/
+	position: fixed;
+	z-index: 99;
+	background-color:rgba(0,0,0,0.20);
+	
+}
+.menu ul li:hover a
+{
+	color:rgba(44,44,44,1.00);
+	transform: scale(1.3)
+}
+.menu
+{
+	width: 60%;
+	height:60px;
+	float: right;
+/*	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);*/
+	padding: -2px 5%;
+/*	box-sizing: border-box;*/
+
+}
+.logo
+{
+	width: 40%;
+	height: 60px;
+	float: left;
+/*	background-color: burlywood;*/
+	text-align: center;
+	font-size: 30px;
+	padding-top: 5px;
+	box-sizing: border-box	
+}
+
+.menu ul li a
+{
+	float: right;
+	margin-right: 50px;
+	color:rgba(100,100,100,1.00);
+	font-family: 'Righteous', cursive;
+}
+.space
+{
+	height: 30px;
+}
+.text-container
+{
+	width: 100%;
+	height: 300px;
+/*	background-color: aquamarine;*/
+	color:rgba(44,44,44,1.00);
+	font-family: 'Quicksand', sans-serif;
+	position: absolute;
+	left:10%;
+	top:20%;
+	transform: translate(-10%,-20%)
+	
+}
+.text-container p
+{
+	margin-left: 60px;
+
+}
+p
+{
+	font-size: 21.5px;
+}
+h1
+{
+	font-size: 35px;
+	margin-left: 60px;
+}
+ button
+{
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	font-family: 'Righteous', cursive;
+/*	color:rgba(44,44,44,1.00);*/
+	font-size: 15px;
+	border-radius: 10px;
+	margin-left: 60px;
+	font-weight: bold;
+	outline: none;
+	
+	
+}
+button:hover
+{
+	transform: scale(1.1)
+}
+.Booking
+{
+	border: 1px solid rgba(44,44,44,1.00);
+	color:rgba(44,44,44,1.00);
+}
+.CV
+{
+	border:1px solid aliceblue ;
+	color:aliceblue ;
+	background-color: rgba(44,44,44,1.00)
+}
+.model
+{
+	height: 600px;
+	background-size: none;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-60%)
+}
+.about-container{
+ width:800px;
+ height:400px;
+ background:#ffffff;
+ border-radius:20px;
+ box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+ display: flex;
+ margin: -15%  auto 20px auto;
+ position: relative;
+ justify-content:space-evenly;
+ align-items: center;
+ color: rgba(44,44,44,1.00)
+}
+.about-container img{
+ height:250px;
+}
+.about-text{
+ width:400px;
+} 
+.bgavt
+{
+	margin-top:25px;
+	margin-left: 50px;
+}
+.text01
+{
+	margin: 25px;
+}
+.name
+{
+	text-align: center;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.name b
+{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 20px;
+}
+.name h4
+{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+}
+.text01
+{
+	font-family: 'Quicksand', sans-serif;
+	margin-top:  10px;
+	width: 400px;
+	text-align: justify;
+}
+.bt
+{
+	margin-top: 40px;
+	text-align: center;
+	float: left;
+}
+.sec3
+{
+	height: 500px;
+}
+.box-container
+{
+	width: 1920px;
+	height: 500px; 
+	display:flex;
+	justify-content:space-between;text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	color: rgba(45,45,45,1.00);
+	
+}
+.box-container button
+{
+	margin: 0 auto;
+	margin-top: 10px;
+	color: rgba(45,45,45,1.00);
+}
+.details
+{
+	font-size: 14px;
+	text-align: justify;
+	text-align-last: center;
+	margin: 7px;
+}
+.box-1,.box-2,.box-3
+{
+	 width: 300px;
+	 height:320px;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 box-shadow:2px 2px 18px rgba(0,0,0,0.3);
+	 align-items: center;
+	 justify-content: center;
+	 display: flex;
+	 flex-direction: column;
+	 margin: 0px 100px;
+	 font-size: 16px;
+	 border-radius: 20px;
+	
+}
+.gioithieu
+{
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	color: rgba(45,45,45,1.00)
+	
+}
+.gioithieu h4
+{
+	font-weight: 100;
+	font-size: 18px;
+}
+.gioithieu b
+{
+	font-size: 30px;
+}
+.box-container p heading 
+{
+	font-weight: bold;
+}
+.contact-me
+{
+	width: 60%;
+	height: 150px;
+	text-align: center;
+	color: rgba(45,45,45,1.00);
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	background-color: white;
+	padding-top: 15px;
+	border-radius: 20px;
+	margin: 0 auto;
+	border:1px solid #CBCBCB;
+ 	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	
+}
+.box-1 span,.box-2 span,.box-3 span
+{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;	
+}
+.contact-me button
+{
+	margin: 0 auto;
+	color: rgba(45,45,45,1.00);
+	
+}
+.contact-me button:hover
+{
+	color: rgba(0,0,0,1.00);
+}
+.social{
+ position: fixed;
+ top:50%;
+ right:0px;
+ transform:translateY(-50%);
+}
+.social a{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width:40px;
+ height:40px;
+ margin:0px;
+ padding: 0px;
+ line-height:0px;
+ background-color:#FFFFFF;
+ border:1px solid #CBCBCB;
+ box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+ border-radius: 8px;
+}
+.social a:hover{
+ background-color:#000000;
+ transition:all ease 0.5s;
+}
+.social i{
+ font-size:20px;
+ color:#2B2B2B;
+}
+.bgfoto
+{
+	margin-top: 30px;
+	width: 1920px;
+	text-align: center;
+	visibility: visible;
+	font-family: 'Quicksand', sans-serif;
+/*	display: inline-block;*/
+}
+.longhome
+{
+	text-align: center;
+	margin-left: 20px;
+	visibility: hidden;
+}
+
+/*tabhtml*/
+/* Style the tab */
+.tab
+{
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  height: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 8px;
+  box-shadow:2px 2px 12px rgba(0,0,0,0.2); 
+}
+.tablinks
+{
+	width: 8.3%;
+	height: 50px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 12px;
+  color: rgba(45,45,45,1.00)
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  text-align: center
+	  ;
+}
+
+
+.bgvid
+{
+	width: 1920px;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+/*	height: 1300px;*/
+}
+
+.bgdesign
+{
+	width: 1920px;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+}
+.contact-form{
+/*  height: 300px;*/
+  width: 40%;
+  max-width: 450px;
+  background: #f1f1f1;
+  position: absolute;
+  top: 60%;
+  left: 85%;
+  transform: translate(-50%,-80%);
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 20px #000000b3;
+  font-family: 'Quicksand', sans-serif;
+}
+.contact-form h1{
+  margin-top: 0;
+  font-weight: 300;
+}
+.txtb{
+  border:1px solid gray;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+.txtb label{
+  display: block;
+  text-align: left;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+	font-weight: bold;
+
+}
+.txtb input,.txtb textarea{
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 12px;
+  margin-top: 0;
+}
+.btn{
+  display: inline-block;
+  background:rgba(45,44,44,1.00);
+  padding: 14px 0;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+  border-radius: 8px;
+}
+.btn:hover
+{
+	transform: scale(1.1)
+}
+.footer{
+ height:300px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ font-family: 'Quicksand', sans-serif;
+}
+.social-icons a{
+ width:40px;
+ height:40px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color:rgba(90,90,90,00.50);
+ margin:20px 10px;
+ border-radius:50%;
+	
+}
+.social-icons{
+ display: flex;
+ 
+}
+.social-icons i,.social i{
+ color:#000000;
+}
+.social-icons a:hover{
+ background-color:#000000;
+ box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+ transition:all ease 0.5s;
+}
+.social-icons a:hover i,
+.social a:hover i{
+ color:#FFFFFF;
+ transition:all ease 0.5s;
+	
+}
+ 
+.copyright{
+ color:#565555;
+ font-size: 12px;
+ position: absolute;
+ left:50%;
+ bottom:10px;
+ transform: translateX(-50%);
+ font-family: 'Quicksand', sans-serif;
+}
+.footer p
+{
+	font-size: 14px;
+}
